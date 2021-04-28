@@ -1,0 +1,100 @@
+body {
+	background-image: url(Images/bg.jpg);
+	background-repeat: repeat;
+	margin: 0;
+	padding:0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: 000000;
+	font-size: 12px;
+	
+}
+#main {
+	background-image: url(Images/bg_rep.jpg);
+	width: 879px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: repeat-y;
+	}
+
+.dash{
+	background-image: url(Images/dash.gif);
+	background-repeat: repeat-x;
+	height: 9px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	clear:both;
+}
+H1 {
+ font-size: 140%;
+ color:#660000;
+ margin-bottom: 30px;}
+ 
+H2 {
+ font-size: 120%;
+ color:#660000;
+ margin-bottom: 30px;}
+ 
+
+p{
+	font-size: 12px;
+	line-height: 140%;
+}
+ 
+
+p.from {
+font-weight:bold;
+}
+
+#date {
+	clear: both;
+	font-size: 10px;
+	color:#666666;
+}
+
+#image{
+	float: left;
+	padding: 5px 5px 5px 5px;
+	border-width: 1px 1px 1px 1px; 
+	border-style: solid; 
+	border-color: #DCCE9F;
+}
+#wishes{
+	float: left;
+	font-size: 12px;
+	line-height: 140%;
+	margin: 0px 0 10px 10px;
+	padding: 0px;
+	width: 450px;
+	
+}
+ 
+a {color:#660000;}
+
+a:hover{color:#000000;}
+
+.float_right{
+}
+
+
+a.send {color:#660000;
+font-size: 16px;
+font-weight:bold;
+float: right;}
+
+a.send:hover{color:#000000;}
+
+.small{
+color:#9D8565;
+font-size: 11px;}
+
+input.button{
+background-color:#990000;
+border-color: #660000;
+border-width: 3px;
+border-style: solid; 
+color: #FF9900;
+font-weight: bold;
+
+
+}

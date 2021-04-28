@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<link href="style_screen.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="telegramma">
+  <form id="form1" name="form1" method="post" action="">
+  <p>&nbsp;</p>
+  </form>
+  <form action="index.php?comment" method="post" name="comment" id="comment">
+    <table align="center">
+      <tbody>
+        <tr>
+          <td>Name:</td>
+          <td><input name="name" type="text" size="35" /></td>
+        </tr>
+        <tr>
+          <td>Comment:</td>
+          <td><textarea name="comment" cols="50" rows="15"></textarea>          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><input name="submit" value="Submit" type="submit" />          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+  <form name="img" id="form" enctype="multipart/form-data" action="index.php?upload" method="post">
+    <table align="center">
+      <tbody>
+        <tr>
+          <td>File:</td>
+          <td><input name="MAX_FILE_SIZE" value="3000000" type="hidden" />
+              <input name="pic" type="file" />
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><input name="submit" value="Upload" type="submit" /></td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+</body>
+</html>
